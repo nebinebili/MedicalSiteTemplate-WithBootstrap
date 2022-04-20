@@ -1,0 +1,81 @@
+:root {
+    --mavi: #6bc1f1;
+    --darkblue:#072035;
+}
+
+header {
+    background: url('img/headerbg.jpg') center/cover
+}
+
+.bg-white-80 {
+    background: #ffffffcc
+}
+
+.bg-mavi {
+    background: var(--mavi)
+}
+
+.bg-darkblue{
+    background: var(--darkblue);
+}
+
+.text-mavi {
+    color: var(--mavi)
+}
+
+.vh-50 {
+    height: 50vh
+}
+
+.hover-img:hover {
+    opacity: .5
+}
+
+.hover-img:hover p {
+    display: block!important
+}
+
+#slider h2 {
+    font-size: 6.25em
+}
+
+#slider1img {
+    background: url('img/slider1img.png') center/cover no-repeat;
+    height: 45px;
+    width: 45px;
+}
+
+#slider2img {
+    background: url('img/slider2img.png') center/cover no-repeat;
+    height: 45px;
+    width: 45px;
+}
+
+#slider3img {
+    background: url('img/slider3img.png') center/cover no-repeat;
+    height: 45px;
+    width: 45px;
+}
+
+#slider4img {
+    background: url('img/slider4img.png') center/cover no-repeat;
+    height: 45px;
+    width: 45px;
+}
+
+#slider5img {
+    background: url('img/slider5img.png') center/cover no-repeat;
+    height: 45px;
+    width: 45px;
+}
+
+.carousel-indicators .active {
+    transform: scale(1.6);
+    margin: 0 20px;
+}
+
+main .container:nth-child(3) .card img {
+    height: 60px;
+    width: 60px;
+}
+
